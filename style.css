@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "calculator";
+    src: url("Calculator.ttf") format("truetype");
+}
+
+#pantalla{
+    font-family: "calculator";
+    font-size: 20px;
+    font-weight: bold;
+    background: #008080;
+}
+
+.contenedor{
+    width: 120px;
+    padding: 5px;
+
+}
+
+#pantalla{
+    width: 155px;
+    height: 50px;
+    padding: 5px;
+    border: 3px solid blue;
+    border-radius: 5px;
+    margin-bottom: 1px;
+    overflow: auto;
+    word-wrap: break-word;
+    }
+
+.numeritos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    width: 120px;
+    margin-bottom: 5px;
+}
+
+.operadores{
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    gap: 5px;
+    width: 45px;
+    margin-bottom: 10px;
+}
+
+
+
+button{
+    width: 35px;
+    height: 35px;
+    background: #b2bec3;
+}
+
+.padre{
+    display: flex;
+    
+}
+
+.caja{
+    display: flex;
+    align-items: flex-end;
+}
+
+.cuerpo{
+    display: flex;
+    width: 190px;
+    height: 260px;
+    background: #777777;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
